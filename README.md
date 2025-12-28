@@ -1,5 +1,5 @@
 # US Medical Healthcare Cost Drivers: SQL + Tableau Case Study
-This project explores the drivers of individual healthcare costs using a U.S. insurance dataset. SQL is used to perform in-depth analytics with Common Table Expressions (CTEs) and Key Performance Indicators (KPIs), while Tableau brings the findings to life with an interactive dashboard.
+This project explores the drivers of individual healthcare costs using a U.S. insurance dataset. SQL is used to perform analytics using CTEs (for KPI queries), KPI summary views, and CASE-based segmentation to compare costs across smoking status, BMI groups, age groups, family size, sex, and region. While Tableau brings the findings to life with an interactive dashboard.
 
 The analysis highlights how lifestyle choices (smoking, BMI), demographics (age, dependents, sex), and geography (region) influence medical costs. This mirrors the type of work done in healthcare analytics, insurance risk assessment, and policy planning.
 
@@ -82,7 +82,7 @@ Regional Disparities
 
 
 ## 🛠️ Tools Used:
-SQL (aggregation, grouping, CTEs, KPIs, CASE statements)
+SQL (CTEs for KPI queries, KPI/views for Tableau, aggregations, GROUP BY, and CASE-based segmentation)
 
 Tableau (interactive dashboarding, KPI cards, maps, bar/line/scatter plots)
 

@@ -78,7 +78,7 @@ Regional Disparities
 
 * The Southeast records the highest average charges, likely due to higher prevalence of obesity and smoking.
 
-* The Northeast shows comparatively lower charges, reflecting possible differences in healthcare access or lifestyle factors.
+* The Southwest has the lowest average charges, while the Southeast has the highest, suggesting regional disparities tied to lifestyle and population risk factors.
 
 
 ## 🛠️ Tools Used:

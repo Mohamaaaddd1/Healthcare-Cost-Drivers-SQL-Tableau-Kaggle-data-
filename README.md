@@ -88,6 +88,13 @@ Tableau (interactive dashboarding, KPI cards, maps, bar/line/scatter plots)
 
 Github (project documentation & version control)
 
+## ⚙️ Implementation Notes (Data Loading)
+
+Note:
+Data ingestion is performed via the MySQL command-line interface (CLI) using LOAD DATA LOCAL INFILE.
+This approach was required due to client-side security restrictions that prevent some SQL editors (including VS Code SQL extensions) from executing local file imports.
+
+All schema setup, analysis queries, CTEs, KPI views, and Tableau-ready outputs are fully reusable in any MySQL-compatible environment.
 
 ## 💡 Why This Project Matters
 

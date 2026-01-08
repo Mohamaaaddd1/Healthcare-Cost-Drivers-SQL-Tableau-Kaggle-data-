@@ -3,7 +3,7 @@ This project explores the drivers of individual healthcare costs using a U.S. in
 
 The analysis highlights how lifestyle choices (smoking, BMI), demographics (age, dependents, sex), and geography (region) influence medical costs. This mirrors the type of work done in healthcare analytics, insurance risk assessment, and policy planning.
 
-## Repository Structure
+## 📋 Repository Structure
 
 - `sql/`
   - `01_setup_healthcare_costs.sql` – Creates database schema and tables

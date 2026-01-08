@@ -3,6 +3,17 @@ This project explores the drivers of individual healthcare costs using a U.S. in
 
 The analysis highlights how lifestyle choices (smoking, BMI), demographics (age, dependents, sex), and geography (region) influence medical costs. This mirrors the type of work done in healthcare analytics, insurance risk assessment, and policy planning.
 
+## Repository Structure
+
+- `sql/`
+  - `01_setup_healthcare_costs.sql` – Creates database schema and tables
+  - `02_load_data_healthcare_costs.sql` – Loads raw insurance data (run via MySQL CLI)
+  - `03_analysis_healthcare_costs.sql` – Analysis queries, KPIs, and Tableau-ready views
+- `data/`
+  - `insurance.csv` – Raw dataset
+- `README.md` – Project overview and findings
+
+
 ## 🎯 Objectives
 
 Apply SQL for healthcare data analysis with CTEs and KPIs.

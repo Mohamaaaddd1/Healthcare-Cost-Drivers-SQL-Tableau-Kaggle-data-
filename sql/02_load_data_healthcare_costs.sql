@@ -14,7 +14,7 @@ TRUNCATE TABLE insurance;
    mysql --local-infile=1 -u root -p
 */
 
-LOAD DATA LOCAL INFILE '/Users/mohamaaaddd_/Desktop/Anything Code/Healthcare-Cost-Drivers-SQL-Tableau-Kaggle-data-/insurance.csv'
+LOAD DATA LOCAL INFILE '/Users/mohamaaaddd_/Desktop/Anything Code/Healthcare-Cost-Drivers-SQL-Tableau-Kaggle-data-/data/insurance.csv'
 INTO TABLE insurance
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'

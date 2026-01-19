@@ -104,8 +104,16 @@ Regional Disparities
 * The Southwest has the lowest average charges, while the Southeast has the highest, suggesting regional disparities tied to lifestyle and population risk factors.
 
 
+## 📊 Tableau Dashboard
+
+🔗 **Live Interactive Dashboard (Tableau Public):**  
+[https://public.tableau.com/your-dashboard-link](https://public.tableau.com/views/HealthcareCostDrivers/HealthcareCostDriversWhoPaysMoreandWhy?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+The dashboard visualizes healthcare cost drivers across lifestyle, demographic, and geographic dimensions using SQL-generated analytical views.
+
+
 ## 🛠️ Tools Used:
-SQL (CTEs for KPI queries, KPI/views for Tableau, aggregations, GROUP BY, and CASE-based segmentation)
+SQL via VSCode & Terminal (CTEs for KPI queries, KPI/views for Tableau, aggregations, GROUP BY, and CASE-based segmentation)
 
 Tableau (interactive dashboarding, KPI cards, maps, bar/line/scatter plots)
 

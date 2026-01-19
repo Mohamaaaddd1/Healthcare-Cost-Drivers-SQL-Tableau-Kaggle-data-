@@ -108,7 +108,7 @@ Regional Disparities
 ## 📊 Tableau Dashboard
 
 🔗 **Live Interactive Dashboard (Tableau Public):**  
-https://public.tableau.com/views/HealthcareCostDrivers/HealthcareCostDriversWhoPaysMoreandWhy?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+Tableau Dashboard[https://public.tableau.com/views/HealthcareCostDrivers/HealthcareCostDriversWhoPaysMoreandWhy?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link]
 
 The dashboard visualizes healthcare cost drivers across lifestyle, demographic, and geographic dimensions using SQL-generated analytical views.
 

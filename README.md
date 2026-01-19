@@ -11,18 +11,17 @@ The analysis highlights how lifestyle choices (smoking, BMI), demographics (age,
     - `02_load_data_healthcare_costs.sql` – Loads raw insurance data (run via MySQL CLI)
     - `03_analysis_healthcare_costs.sql` – Analysis queries, KPIs, and Tableau-ready views
   - `view exports/`
-    - `vw_age_groups.tsv`
-    - `vw_bmi_categories.tsv`
-    - `vw_children_impact.tsv`
-    - `vw_kpis.tsv`
-    - `vw_patient_features.tsv`
-    - `vw_readme_summary.tsv`
-    - `vw_region_stats.tsv`
-    - `vw_sex_impact.tsv`
-    - `vw_smoker_bmi_matrix.tsv`
-    - `vw_smoker_impact.tsv`
+    - `vw_age_groups.tsv` - Average medical cost by age group to analyze how spending increases over the life course
+    - `vw_bmi_categories.tsv` - Average medical cost by BMI category to assess the cost impact of obesity
+    - `vw_children_impact.tsv` - Average medical cost by number of dependents, filtered for sufficient sample sizes
+    - `vw_kpis.tsv` - High-level cost KPIs including average, min, max, and standard deviation across all patients
+    - `vw_patient_features.tsv` - Patient-level dataset combining demographics, lifestyle factors, and costs
+    - `vw_region_stats.tsv` - Average medical cost by U.S. region to identify geographic cost differences
+    - `vw_sex_impact.tsv` - Average medical cost by sex to evaluate gender-based cost variation
+    - `vw_smoker_bmi_matrix.tsv` - Medical costs segmented by smoking status and BMI to capture compounding risk effects
+    - `vw_smoker_impact.tsv` - Average medical cost by smoking status to quantify smoking’s financial impact
 - `tableau dashboard`
-  - `Healthcare Cost Drivers.twbx`
+  - `Healthcare Cost Drivers.twbx` - Packaged Tableau workbook containing the full interactive dashboard built from SQL-derived views
 - `data/`
   - `insurance.csv` – Raw dataset
 - `README.md` – Project overview and findings

@@ -21,6 +21,8 @@ The analysis highlights how lifestyle choices (smoking, BMI), demographics (age,
     - `vw_sex_impact.tsv`
     - `vw_smoker_bmi_matrix.tsv`
     - `vw_smoker_impact.tsv`
+- `tableau dashboard`
+  - `Healthcare Cost Drivers.twbx`
 - `data/`
   - `insurance.csv` – Raw dataset
 - `README.md` – Project overview and findings

@@ -20,7 +20,7 @@ The analysis highlights how lifestyle choices (smoking, BMI), demographics (age,
     - `vw_sex_impact.tsv` - Average medical cost by sex to evaluate gender-based cost variation
     - `vw_smoker_bmi_matrix.tsv` - Medical costs segmented by smoking status and BMI to capture compounding risk effects
     - `vw_smoker_impact.tsv` - Average medical cost by smoking status to quantify smoking’s financial impact
-- `tableau dashboard`
+- `tableau dashboard/`
   - `Healthcare Cost Drivers.twbx` - Packaged Tableau workbook containing the full interactive dashboard built from SQL-derived views
 - `data/`
   - `insurance.csv` – Raw dataset

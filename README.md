@@ -6,9 +6,21 @@ The analysis highlights how lifestyle choices (smoking, BMI), demographics (age,
 ## 📋 Repository Structure
 
 - `sql/`
-  - `01_setup_healthcare_costs.sql` – Creates database schema and tables
-  - `02_load_data_healthcare_costs.sql` – Loads raw insurance data (run via MySQL CLI)
-  - `03_analysis_healthcare_costs.sql` – Analysis queries, KPIs, and Tableau-ready views
+  - `sql code/`
+    - `01_setup_healthcare_costs.sql` – Creates database schema and tables
+    - `02_load_data_healthcare_costs.sql` – Loads raw insurance data (run via MySQL CLI)
+    - `03_analysis_healthcare_costs.sql` – Analysis queries, KPIs, and Tableau-ready views
+  - `view exports/`
+    - `vw_age_groups.tsv`
+    - `vw_bmi_categories.tsv`
+    - `vw_children_impact.tsv`
+    - `vw_kpis.tsv`
+    - `vw_patient_features.tsv`
+    - `vw_readme_summary.tsv`
+    - `vw_region_stats.tsv`
+    - `vw_sex_impact.tsv`
+    - `vw_smoker_bmi_matrix.tsv`
+    - `vw_smoker_impact.tsv`
 - `data/`
   - `insurance.csv` – Raw dataset
 - `README.md` – Project overview and findings
